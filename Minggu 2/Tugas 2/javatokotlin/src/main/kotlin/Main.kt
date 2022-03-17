@@ -1,9 +1,9 @@
-class Mobil {
+class Mobil2 {
     var warna = ""
     var tahunProduksi = 0
 }
-fun main(args : Array<String>) {
-    val mobilku = Mobil()
+fun main() {
+    val mobilku = Mobil2()
     mobilku.warna = "Hitam"
     mobilku.tahunProduksi = 2006
     println("Warna : "+mobilku.warna)
