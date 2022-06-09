@@ -7,9 +7,11 @@ fun main(){
         print("Masukkan Bilangan : ")
         arr.add(readln().toInt())
     }
+    print("Masukkan Bilangan kelipatan : ")
+    var kelipatan = readln().toInt()
     for(element in arr){
-        if(element % 3 == 0){
-            println("Element $element ditemukan di index ke $i merupakan kelipatan bilangan 3")
+        if(element % kelipatan == 0){
+            println("Element $element ditemukan di index ke $i merupakan kelipatan bilangan $kelipatan")
             i++
         }
     }
