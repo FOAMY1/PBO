@@ -5,7 +5,7 @@ fun main(args : Array<String>) {
     var bilanganasli = bilangan
     var checkpalindrome = false
     while(bilangan != 0){
-        nilaipalindrome = nilaipalindrome * 10 + (bilangan % 10);
+        nilaipalindrome = nilaipalindrome * 10 + (bilangan % 10)
         bilangan /= 10
     }
     if(bilanganasli == nilaipalindrome){
