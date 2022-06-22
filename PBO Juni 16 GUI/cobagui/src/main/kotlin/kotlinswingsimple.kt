@@ -1,3 +1,5 @@
+import java.awt.Color
+import java.awt.GradientPaint
 import javax.swing.*
 
 
@@ -12,6 +14,8 @@ class Simple {
         f.add(l1)
         f.add(l2)
         val b = JButton("Ini Button")
+        b.background = Color.red
+        b.foreground = Color.white
         b.addActionListener { l2.text = "Button ganti text" }
         b.setBounds(150, 100, 200, 40)
         f.add(b)
